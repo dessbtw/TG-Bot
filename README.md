@@ -59,7 +59,7 @@ calc.py — формулы КБЖУ + BMI
 git clone https://github.com/dessbtw/TG-Bot.git
 cd yourrepo
 
-pip install -r requirements.txt
+pip install cv2 requests pyzbar numpy threading pyTelegramBotApi
 
 python bot.py
 
@@ -89,11 +89,11 @@ threading.Thread(target=Image, args=(message,)).start()
 ## 🛠 Структура кода
 
 project/
-│── bot.py            # Основная логика Telegram-бота
-│── scan.py           # Распознавание товара по штрихкоду
-│── calc.py           # Расчёт КБЖУ и BMI
-│── requirements.txt  # Зависимости
-└── README.md         # Документация
+- │── bot.py            # Основная логика Telegram-бота
+- │── scan.py           # Распознавание товара по штрихкоду
+- │── calc.py           # Расчёт КБЖУ и BMI
+- │── requirements.txt  # Зависимости
+- └── README.md         # Документация
 
 ## ❤️ Автор
 
