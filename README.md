@@ -59,7 +59,7 @@ calc.py — формулы КБЖУ + BMI
 git clone https://github.com/dessbtw/TG-Bot.git
 cd yourrepo
 
-pip install cv2 requests pyzbar numpy threading pyTelegramBotApi
+pip install opencv-python requests pyzbar numpy threading pyTelegramBotApi
 
 python bot.py
 
